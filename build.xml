@@ -129,9 +129,9 @@
 		      </args>
 		    </git>-->
 		 <!-- <git-pull branch="master"  dir="." />-->
-		
+			  <echo>copy </echo>
 		<copy todir="./src/com/test/">
-		  <echo>copy </echo>
+	
 		           <fileset dir="testcases"/>
 		        </copy>
 
