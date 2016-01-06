@@ -128,9 +128,10 @@
 		        <arg value = "." />
 		      </args>
 		    </git>-->
-		  <git-pull branch="master"  dir="." />
+		 <!-- <git-pull branch="master"  dir="." />-->
 		
 		<copy todir="./src/com/test/">
+		  <echo>copy </echo>
 		           <fileset dir="testcases"/>
 		        </copy>
 
